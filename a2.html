@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ADMISSION FORM </title>
+<script>
+function ma()
+{alert("Are you sure about submission of form");
+}
+</script>
+ </head>
+<body>
+<form name="mf" action="action_page.php" >
+<h4>EDUCATIONAL DETAIL SECTION (minimum 12th or its equivalent)</h1>
+<table border="5">
+<tr>
+<td>Name of Examination</td>
+<td>Name of Board/University</td>
+<td>School/College name</td>
+<td>Date of Passing</td>
+<td>Grade/Total Marks obtained</td>
+<td>Seat Number</td>
+</tr>
+<tr>
+<td><input type="text" name="t1"></td>
+<td><input type="text" name="t2"></td>
+<td><input type="text" name="t3"></td>
+<td><input type="text" name="t4"></td>
+<td><input type="text" name="t5"></td>
+<td><input type="text" name="t6"></td>
+</tr>
+<tr>
+<td><input type="text" name="t7"></td>
+<td><input type="text" name="t8"></td>
+<td><input type="text" name="t9"></td>
+<td><input type="text" name="t10"></td>
+<td><input type="text" name="t11"></td>
+<td><input type="text" name="t12"></td>
+</tr>
+</table>
+<h4>SELECT THE DEPARTMENT</h4>
+<select name="dept">
+<option value:"IT">it</option>
+<option value:"COMP">cmp</option>
+<option value:"EXTC">extc</option>
+<option value:"INST">ins</option>
+<option value:"ELECT">elec</option>
+</select><br><br>
+<h4>TEST CENTER PREFERENCE</h4><br>
+<select name="t">
+<option value:"IT">DY NERUL</option>
+<option value:"COMP">DY AKURDI</option>
+<option value:"EXTC">DY CHINCHWAD</option>
+<option value:"INST">DY BELAPUR</option>
+</select><br><br>
+<h4>UPLOAD PHOTO AND SIGNATURE</h4>
+<input type="file" value="ab">(photo)<br><br>
+<input type="file" value="aba">(signature)<br><br>
+<button onclick="ma()">submit</button>
+
+
+
+
+</form>
+</body>
+</html>
